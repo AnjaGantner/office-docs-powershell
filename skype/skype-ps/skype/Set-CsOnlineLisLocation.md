@@ -27,6 +27,11 @@ Set-CsOnlineLisLocation -CivicAddressId <Guid> [-CompanyName <String>] [-Company
  [-StateOrProvince <String>] [-CountryOrRegion <String>] [-PostalCode <String>] [-Description <String>]
  [-Latitude <String>] [-Longitude <String>] [-Confidence <String>] [-Elin <String>] [-Tenant <Guid>]
  [-DomainController <Fqdn>] [-Force] [-WhatIf] [-Confirm] [<CommonParameters>]
+ 
+ 
+ Set-CsOnlineListLocation -CivicAddressID <> -StateOrProvince <> 
+can not be used in order to change the value of StateOrProvince parameter. 
+Error message "Invalid Location ID"
 ```
 
 ### UseLocationId
